@@ -1,7 +1,7 @@
-server 'box.your.host', user: 'deploy', roles: %w{web app db}
+server '158.69.208.119', user: 'deploy', roles: %w{web app db}
 set :stage, :production
 set :branch, :master
-set :deploy_to, '/'
+set :deploy_to, '/var/www'
 set :tmp_dir, '/tmp'
 
 set :unicorn_rack_env, 'production'
