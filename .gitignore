@@ -10,7 +10,6 @@ sftp-config.json
 /db/*.sqlite3-journal
 public/uploads
 *.DS_Store
-Gemfile.lock
 *.swp
 *~
 *.rdb
