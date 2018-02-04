@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 # Active support shit
-gem 'activesupport', '~> 5.1', '>= 5.1.4'
-gem 'concurrent-ruby', '~> 1.0', '>= 1.0.5'
-gem 'i18n', '~> 0.9.3'
-gem 'minitest', '~> 5.11', '>= 5.11.3'
-gem 'tzinfo', '~> 1.2', '>= 1.2.5'
+gem 'activesupport', '~> 5.1', '>= 5.1.3'
+gem 'concurrent-ruby', '~> 1.0', '>= 1.0.2'
+gem 'i18n', '~> 0.7.0'
+gem 'minitest', '~> 5.1'
+gem 'tzinfo', '~> 1.1'
 
 # Forums
 gem 'impressionist', git: 'https://github.com/charlotte-ruby/impressionist.git'
