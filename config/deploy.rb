@@ -5,7 +5,7 @@ require 'capistrano/git-submodule-strategy'
 
 set :application, 'avicus'
 # FIXME: Change this when you fork!
-set :repo_url, 'git@github.com:alexanderjoe/Website.git'
+set :repo_url, 'git@github.com:Avicus/avicus.net.git'
 set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/avicus.yml', 'config/blazer.yml')
 set :linked_dirs, fetch(:linked_dirs, []).push('public/uploads', 'log', 'unicorn', 'tmp/pids')
 set :git_strategy, Capistrano::Git::SubmoduleStrategy
